@@ -9,4 +9,5 @@ endif()
 idf_component_register(
     SRCS ${SOURCES}
     INCLUDE_DIRS ${INCLUDES}
+    PRIV_REQUIRES driver
 )
